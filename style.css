@@ -1,104 +1,107 @@
-
-
 body {
     background-color: #60a9ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /
+    min-height: 100vh;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem;
 }
 
 .PricingSection {
-    max-width: 67rem;  
-
+    max-width: 67rem;
+    width: 90%;
     height: auto;
-    margin-top: 10vh; 
+    margin-top: 10vh;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 1rem;
     padding: 2rem;
 }
 
 .pricing-plan {
-    width: 15.25rem;  
+    width: 100%;
+    max-width: 15.25rem;
     height: auto;
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    
-
+    text-align: center;
 }
 
 .pricing-plan img {
-    width: 15rem;  
+    width: 100%;
+    max-width: 15rem;
     height: auto;
-
 }
-
 
 .vertical-line {
-    width: 1px; 
-    height: 60vh; 
+    width: 1px;
+    height: 60vh;
     background-color: hsl(208, 100%, 94%);
+    display: block;
 }
-.pricing-header{
+
+.pricing-header {
     margin: 1rem;
     font-size: 16px;
     color: #888888;
-    font-family: "Open Sans", sans-serif;
 }
-ul{
+
+ul {
     list-style: none;
     align-self: center;
     color: #016FF9;
-    font-family: "Open Sans", sans-serif;
     font-size: 12px;
-    text-align: center;
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 2rem;
 }
-li{
+
+li {
     margin: 1.5rem;
 }
-.pricing-price{
+
+.pricing-price {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
     color: #016FF9;
-    font-family: "Open Sans", sans-serif;
 }
-.is-featured{
-   margin-top: 1rem;
-    background-color: #56A8F5; 
-    color: white; 
+
+.is-featured {
+    margin-top: 1rem;
+    background-color: #56A8F5;
+    color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 14px; 
+    font-size: 14px;
     border-radius: 6px;
-    cursor: pointer; 
+    cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
 }
-hr{
-    background-color:#E1F1FF; 
-    height: 2px; 
+
+hr {
+    background-color: #E1F1FF;
+    height: 2px;
     border: none;
     margin-bottom: 1rem;
+    width: 100%;
 }
-.pricing-button{
+
+.pricing-button {
     margin-top: 1rem;
     text-transform: uppercase;
     padding: 10px 20px;
     font-size: 14px;
-    color: #3498db; 
+    color: #3498db;
     background-color: transparent;
-    border: 1px solid #3498db; 
-    border-radius: 6px; 
+    border: 1px solid #3498db;
+    border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
 }
