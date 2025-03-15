@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: #60a9ff;
@@ -14,7 +10,7 @@ body {
 
 .PricingSection {
     max-width: 67rem;  
-    width: 75%; 
+
     height: auto;
     margin-top: 10vh; 
     background-color: white;
