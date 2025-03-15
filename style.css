@@ -75,13 +75,12 @@ li{
     font-family: "Open Sans", sans-serif;
 }
 .is-featured{
-    margin: 1rem;
+   margin-top: 1rem;
     background-color: #56A8F5; 
     color: white; 
     border: none;
     padding: 10px 20px;
     font-size: 14px; 
-    font-weight: bold; 
     border-radius: 6px;
     cursor: pointer; 
     text-transform: uppercase;
@@ -91,9 +90,12 @@ li{
 hr{
     background-color:#E1F1FF; 
     height: 2px; 
-    border: none;;
+    border: none;
+    margin-bottom: 1rem;
 }
 .pricing-button{
+    margin-top: 1rem;
+    text-transform: uppercase;
     padding: 10px 20px;
     font-size: 14px;
     color: #3498db; 
